@@ -30,4 +30,7 @@ public class Package {
 
     @Column(nullable = false)
     private Double weightKg;     
+
+    @Column(length = 150)
+    private String update; 
 }
